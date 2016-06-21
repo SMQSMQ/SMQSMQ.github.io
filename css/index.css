@@ -807,6 +807,10 @@ img {
   transition: all 0.2s ease 2s;
 }
 
+#section5 .show-wrap .show-lists .show-item:nth-child(11) {
+  transition: all 0.2s ease 2.2s;
+}
+
 #section5.active .show-wrap .show-lists .show-item {
   transform: scale(1, 1);
   opacity: 1;
