@@ -754,7 +754,7 @@ img {
 }
 
 #section5 .show-wrap .show-lists .show-item:hover .zhezhao {
-  background: #091f4f;
+  background: rgba(9, 31, 79, 0.9);
   transform: scale(0.8, 0.8);
 }
 
