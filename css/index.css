@@ -5,7 +5,7 @@ body, ul, li, a, span, div, h1, h2, h3, h4, h5, h6, strong {
   border: 0;
 }
 
-#section2 .globle-wrap, #section2 .globle-wrap-inner, #section2 .globle-outer .globle-inner, #section2 .globle-content, #section2 .globle-content .iconfont label, #section3 .rhombs .rhombs-lists .rhombs-item .flipper, #section3 .rhombs .rhombs-lists .rhombs-item .flipper1, #section3 .rhombs .rhombs-lists .rhombs-item .front, #section3 .rhombs .rhombs-lists .rhombs-item .back, #section5 .show-wrap .show-lists .show-item .zhezhao {
+#section2 .globle-wrap, #section2 .globle-wrap-inner, #section2 .globle-outer .globle-inner, #section2 .globle-content, #section2 .globle-content .iconfont label, #section3 .rhombs .rhombs-lists .rhombs-item .flipper, #section3 .rhombs .rhombs-lists .rhombs-item .flipper1, #section3 .rhombs .rhombs-lists .rhombs-item .front, #section3 .rhombs .rhombs-lists .rhombs-item .back {
   position: absolute;
   top: 0;
   left: 0;
@@ -20,7 +20,7 @@ body, ul, li, a, span, div, h1, h2, h3, h4, h5, h6, strong {
   clear: both;
 }
 
-#section2 .globle-wrap, #section2 .globle-wrap-inner, #section3 .rhombs .rhombs-lists .rhombs-item .flipper, #section3 .rhombs .rhombs-lists .rhombs-item .flipper1, #section5 .show-wrap .show-lists .show-item .show-img {
+#section2 .globle-wrap, #section2 .globle-wrap-inner, #section3 .rhombs .rhombs-lists .rhombs-item .flipper, #section3 .rhombs .rhombs-lists .rhombs-item .flipper1, #section5 .show-wrap .show-lists .show-item .zhezhao {
   width: 100%;
   height: 100%;
 }
@@ -703,7 +703,6 @@ img {
 
 #section5 .show-wrap .show-lists .show-item {
   width: 20%;
-  height: 270px;
   float: left;
   position: relative;
   overflow: hidden;
@@ -727,36 +726,27 @@ img {
   }
 }
 
-#section5 .show-wrap .show-lists .show-item .show-img {
-  overflow: hidden;
-  line-height: 270px;
-}
-
 #section5 .show-wrap .show-lists .show-item .show-img img {
-  transition: transform 1s ease;
+  width: 100%;
+  transition: transform 1.5s ease-out;
 }
 
 #section5 .show-wrap .show-lists .show-item .zhezhao {
   position: absolute;
-  top: 100%;
+  top: 0;
   left: 0;
-  background: #071c8c;
-  opacity: .6;
-  transition: top .8s linear;
+  background: rgba(0, 0, 0, 0.5);
   text-align: center;
   line-height: 80px;
+  transform: scale(1, 1);
+  transition: all 1s ease;
 }
 
-#section5 .show-wrap .show-lists .show-item .zhezhao a {
+#section5 .show-wrap .show-lists .show-item .zhezhao span {
   color: #fff;
   font-family: "苹方";
   letter-spacing: .3px;
   padding: 0 20px;
-}
-
-#section5 .show-wrap .show-lists .show-item .zhezhao a:hover {
-  text-decoration: underline;
-  color: #7190BC;
 }
 
 #section5 .show-wrap .show-lists .show-item:hover img {
@@ -764,51 +754,52 @@ img {
 }
 
 #section5 .show-wrap .show-lists .show-item:hover .zhezhao {
-  top: 0;
+  background: #091f4f;
+  transform: scale(0.8, 0.8);
 }
 
 #section5 .show-wrap .show-lists .show-item:nth-child(1) {
-  transition: all 0.2s ease 0.2s;
+  transition: all 0.2s ease 0.5s;
 }
 
 #section5 .show-wrap .show-lists .show-item:nth-child(2) {
-  transition: all 0.2s ease 0.4s;
-}
-
-#section5 .show-wrap .show-lists .show-item:nth-child(3) {
-  transition: all 0.2s ease 0.6s;
-}
-
-#section5 .show-wrap .show-lists .show-item:nth-child(4) {
-  transition: all 0.2s ease 0.8s;
-}
-
-#section5 .show-wrap .show-lists .show-item:nth-child(5) {
   transition: all 0.2s ease 1s;
 }
 
-#section5 .show-wrap .show-lists .show-item:nth-child(6) {
-  transition: all 0.2s ease 1.2s;
+#section5 .show-wrap .show-lists .show-item:nth-child(3) {
+  transition: all 0.2s ease 1.5s;
 }
 
-#section5 .show-wrap .show-lists .show-item:nth-child(7) {
-  transition: all 0.2s ease 1.4s;
-}
-
-#section5 .show-wrap .show-lists .show-item:nth-child(8) {
-  transition: all 0.2s ease 1.6s;
-}
-
-#section5 .show-wrap .show-lists .show-item:nth-child(9) {
-  transition: all 0.2s ease 1.8s;
-}
-
-#section5 .show-wrap .show-lists .show-item:nth-child(10) {
+#section5 .show-wrap .show-lists .show-item:nth-child(4) {
   transition: all 0.2s ease 2s;
 }
 
+#section5 .show-wrap .show-lists .show-item:nth-child(5) {
+  transition: all 0.2s ease 2.5s;
+}
+
+#section5 .show-wrap .show-lists .show-item:nth-child(6) {
+  transition: all 0.2s ease 3s;
+}
+
+#section5 .show-wrap .show-lists .show-item:nth-child(7) {
+  transition: all 0.2s ease 3.5s;
+}
+
+#section5 .show-wrap .show-lists .show-item:nth-child(8) {
+  transition: all 0.2s ease 4s;
+}
+
+#section5 .show-wrap .show-lists .show-item:nth-child(9) {
+  transition: all 0.2s ease 4.5s;
+}
+
+#section5 .show-wrap .show-lists .show-item:nth-child(10) {
+  transition: all 0.2s ease 5s;
+}
+
 #section5 .show-wrap .show-lists .show-item:nth-child(11) {
-  transition: all 0.2s ease 2.2s;
+  transition: all 0.2s ease 5.5s;
 }
 
 #section5.active .show-wrap .show-lists .show-item {
