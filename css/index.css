@@ -21,7 +21,7 @@ body, ul, li, a, span, div, h1, h2, h3, h4, h5, h6, strong {
 }
 
 html, body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 #section2 .globle-wrap, #section2 .globle-wrap-inner, #section3 .rhombs .rhombs-lists .rhombs-item .flipper, #section3 .rhombs .rhombs-lists .rhombs-item .flipper1, #section5 .show-wrap .show-lists .show-item .zhezhao {
@@ -34,8 +34,13 @@ ul, li {
   display: block;
 }
 
+html {
+  width: 100% !important;
+}
+
 body {
   background: url(../images/background.png);
+  width: 100% !important;
 }
 
 a, span {
