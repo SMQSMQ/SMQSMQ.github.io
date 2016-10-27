@@ -811,6 +811,14 @@ img {
   transition: all 0.2s ease 5.5s;
 }
 
+#section5 .show-wrap .show-lists .show-item:nth-child(12) {
+  transition: all 0.2s ease 5.5s;
+}
+
+#section5 .show-wrap .show-lists .show-item:nth-child(13) {
+  transition: all 0.2s ease 5.5s;
+}
+
 #section5.active .show-wrap .show-lists .show-item {
   transform: scale(1, 1);
   opacity: 1;
